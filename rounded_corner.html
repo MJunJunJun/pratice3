@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/my.css">
+    <style>
+        #rcorners1 {
+            border-radius: 15px 50px 30px 5px;
+            background: #73AD21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        
+        #rcorners2 {
+            border-radius: 15px 50px 30px;
+            background: #73AD21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        
+        #rcorners3 {
+            border-radius: 15px 50px;
+            background: #73AD21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+        
+        #rcorners4 {
+            border-radius: 15px;
+            background: #73AD21;
+            padding: 20px;
+            width: 200px;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Junaedi</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li class="menu-button" onclick="window.location.href='index.html'">Beranda</li>
+                <li class="menu-button" onclick="window.location.href='shadow.html'">Shadow</li>
+                <li class="menu-button" onclick="window.location.href='background.html'">Background</li>
+                <li class="menu-button" onclick="window.location.href='rounded_corner.html'">Rounded Corner</li>
+                <li class="menu-button" onclick="window.location.href='gradien.html'">Gradient</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>The border-radius Property</h1>
+
+            <p>Four values - border-radius: 15px 50px 30px 5px:</p>
+            <p id="rcorners1"></p>
+
+            <p>Three values - border-radius: 15px 50px 30px:</p>
+            <p id="rcorners2"></p>
+
+            <p>Two values - border-radius: 15px 50px:</p>
+            <p id="rcorners3"></p>
+
+            <p>One value - border-radius: 15px:</p>
+            <p id="rcorners4"></p>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <img src="hehe.jpg" width="100%" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>copypaste by @junjun</p>
+    </div>
+</body>
+
+</html>

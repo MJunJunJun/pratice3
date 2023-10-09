@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/my.css">
+    <style>
+        #grad1 {
+            height: 200px;
+            background-color: red;
+            /* For browsers that do not support gradients */
+            background-image: linear-gradient(to bottom right, red, yellow);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Junaedi</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li class="menu-button" onclick="window.location.href='index.html'">Beranda</li>
+                <li class="menu-button" onclick="window.location.href='shadow.html'">Shadow</li>
+                <li class="menu-button" onclick="window.location.href='background.html'">Background</li>
+                <li class="menu-button" onclick="window.location.href='rounded_corner.html'">Rounded Corner</li>
+                <li class="menu-button" onclick="window.location.href='gradien.html'">Gradient</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>Linear Gradient - Diagonal</h1>
+            <p>This linear gradient starts red at top left, transitioning to yellow (at bottom right):</p>
+
+            <div id="grad1"></div>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <img src="hehe.jpg" width="100%" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>copypaste by @junjun</p>
+    </div>
+</body>
+
+</html>

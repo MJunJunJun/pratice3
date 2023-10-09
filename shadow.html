@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/my.css">
+
+    <style>
+        div.polaroid {
+            width: 250px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            text-align: center;
+        }
+        
+        div.container {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Junaedi</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-3 col-s-3 menu">
+            <ul>
+                <li class="menu-button" onclick="window.location.href='index.html'">Beranda</li>
+                <li class="menu-button" onclick="window.location.href='shadow.html'">Shadow</li>
+                <li class="menu-button" onclick="window.location.href='background.html'">Background</li>
+                <li class="menu-button" onclick="window.location.href='rounded_corner.html'">Rounded Corner</li>
+                <li class="menu-button" onclick="window.location.href='gradien.html'">Gradient</li>
+            </ul>
+        </div>
+
+        <div class="col-6 col-s-9">
+            <h1>Create Polaroid Images</h1>
+            <p>The box-shadow property can be used to create polaroid images:</p>
+
+            <div class="polaroid">
+                <img src="kucing.jpeg" alt="Norway" style="width:100%">
+                <div class="container">
+                    <p>Hardanger, Norway</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-3 col-s-12">
+            <div class="aside">
+                <img src="hehe.jpg" width="100%" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>copypaste by @junjun</p>
+    </div>
+</body>
+
+</html>
